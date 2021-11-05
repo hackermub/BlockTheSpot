@@ -167,7 +167,8 @@ UI isn't changed.
 }
 #>
 
-$ch = Read-Host -Prompt "Optional - Remove ad placeholder and upgrade button. (Y/N) "
+# $ch = Read-Host -Prompt "Optional - Remove ad placeholder and upgrade button. (Y/N) "
+$ch = 'y'
 if ($ch -eq 'y') {
     $xpuiBundlePath = "$SpotifyApps\xpui.spa"
     $xpuiUnpackedPath = "$SpotifyApps\xpui\xpui.js"
